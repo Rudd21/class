@@ -1,0 +1,136 @@
+* {
+  font-family: 'Oswald', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 25px;
+}
+
+main {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.about-me {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 550px 550px;
+      grid-template-columns: 550px 550px;
+  margin: 0 auto;
+  width: 1100px;
+}
+
+.about-me img {
+  z-index: 2;
+}
+
+.about-me p {
+  padding: 15px;
+  font-size: 30px;
+  background: lightgreen;
+  font-weight: bold;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.text-member {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 50% 50%;
+      grid-template-rows: 50% 50%;
+}
+
+h1 {
+  margin: 15px;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background: burlywood;
+  color: white;
+  font-size: 20px;
+}
+
+footer p {
+  width: 250px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 30px;
+  color: white;
+}
+
+.social {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  width: 200px;
+}
+
+.social img {
+  width: 40px;
+  height: 40px;
+}
+
+.gallery {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 500px 500px 500px;
+      grid-template-columns: 500px 500px 500px;
+  -webkit-column-gap: 40px;
+          column-gap: 40px;
+  padding: 25px;
+}
+
+.gallery img {
+  width: 400px;
+  height: 400px;
+}
+
+@media (max-width: 896px) {
+  .about-me {
+    -ms-grid-rows: 400px 300px;
+        grid-template-rows: 400px 300px;
+    -ms-grid-columns: 300px;
+        grid-template-columns: 300px;
+  }
+  .about-me img {
+    width: 300px;
+    height: 400px;
+  }
+  .text-member {
+    -ms-grid-rows: 70px 200px;
+        grid-template-rows: 70px 200px;
+  }
+  footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer p {
+    text-align: center;
+    margin: 10px auto;
+  }
+  footer h3 {
+    text-align: center;
+    margin: 10 auto;
+  }
+  .social {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+}
+/*# sourceMappingURL=member.css.map */

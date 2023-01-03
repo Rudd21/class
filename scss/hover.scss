@@ -1,0 +1,126 @@
+// a {
+//     position: relative;
+//     display: inline-block;
+//     color: #c7522a;
+//     text-decoration: none;
+//     text-transform: uppercase;
+//     transition: 0.5s;
+//     letter-spacing: 4px;
+//     overflow: hidden;
+//     padding: 15px;
+//     background: #008585;
+// }
+// a:hover {
+//     background: #008585;
+//     color: #c7522a;
+//     box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4, 0 0 200px #03e9f4;
+// }
+// a:nth-child(1) {
+//     filter: hue-rotate(270deg);
+// }
+// a:nth-child(2) {
+//     filter: hue-rotate(110deg);
+// }
+// a span {
+//     position: absolute;
+//     display: block;
+// }
+// a span:nth-child(1) {
+//     top: 0;
+//     left: 0;
+//     width: 100%;
+//     background: linear-gradient(90deg, transparent, #008585);
+//     animation: animate1 1s linear infinite;
+// }
+// @keyframes animate1 {
+//     0% {
+//         left: -100%;
+//     }
+//     50%,
+//     100% {
+//         left: 100%;
+//     }
+// }
+// a span:nth-child(4) {
+//     bottom: -100%;
+//     left: 0;
+//     width: 2px;
+//     height: 100%;
+//     background: linear-gradient(360deg, transparent, #03e9f4);
+//     animation: animate4 1s linear infinite;
+//     animation-delay: 0.75s;
+// }
+// @keyframes animate4 {
+//     0% {
+//         bottom: -100%;
+//     }
+//     50%,
+//     100% {
+//         bottom: 100%;
+//     }
+// }
+// footer {
+//     display: flex;
+//     justify-content: space-around;
+//     background: burlywood;
+//     color: white;
+//     font-size: 20px;
+//     p {
+//         width: 250px;
+//         text-align: center;
+//     }
+// }
+// .social {
+//     align-self: center;
+//     width: 200px;
+//     img {
+//         width: 40px;
+//         height: 40px;
+//     }
+// }
+// @media (max-width: 896px) {
+//     ul {
+//         position: relative;
+//         flex-direction: column;
+//         width: 338px;
+//         li {
+//             padding: 10px 0px 10px 0px;
+//             font-size: 20px;
+//             width: 308px;
+//         }
+//     }
+//     .text-grafiti {
+//         flex-direction: column;
+//     }
+//     h1 {
+//         font-size: 45px;
+//         width: 400px;
+//         text-align: center;
+//     }
+//     .g1,
+//     .g2 {
+//         visibility: hidden;
+//     }
+//     .nav1,
+//     .this-page {
+//         width: 208px;
+//         text-align: center;
+//         padding: 35px;
+//         margin: 0 auto;
+//     }
+//     footer {
+//         flex-direction: column;
+//         p {
+//             text-align: center;
+//             margin: 10px auto;
+//         }
+//         h3 {
+//             text-align: center;
+//             margin: 10 auto;
+//         }
+//     }
+//     .social {
+//         display: flex;
+//         justify-content: space-evenly;
+//     }
+// }

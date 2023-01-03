@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="scss/hover.css">
+    <link rel="stylesheet" href="scss/my-class.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <div class="hamburger-menu">
+                    <input id="menu__toggle" type="checkbox" />
+                    <label class="menu__btn" for="menu__toggle">
+                      <span></span>
+                    </label>
+
+
+                    <ul class="navi1">
+                        <li><a class="nav1" href="index.html">Головна</a></li>
+                        <li><a class="nav1" href="#">Класс</a></li>
+                        <li><a class="nav1" href="school.html">Школа</a></li>
+                        <li><a class="nav1" href="last-members.html">Бувша гвардія</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="text-grafiti">
+                <p class="grafiti g1">≧◉◡◉≦</p>
+                <h1>Тут все іде по алфавіту</h1>
+                <p class="grafiti g2">( ͡ᵔ __ ͡ᵔ )</p>
+            </div>
+        </header>
+        <main>
+            <h2>Наш склад</h2>
+            <div id="result" class="info-member">
+            </div>
+            <div class="members">
+                <div class="member">
+                    <img width="150px" height="150px" src="img/andreiko-sergi01.jpg" alt="">
+                    <div class="text_member">
+                        <h3>Aндрейко Сергій</h3>
+                        <p>Хороший хлопчик</p>
+                        <button class="button_design" onclick="andreiko()">Інформативніше</button>
+                        <div class="inst_member "><a href="https://www.instagram.com/ohcitdyvh/ ">instagram</a></div>
+                    </div>
+                </div>
+                <div class="member ">
+                    <img width="150px " height="150px " src="img/bagrinov1.jpg " alt=" ">
+                    <div class="text_member ">
+                        <h3>Багриновський Максим</h3>
+                        <p>Босс цієї качалки</p>
+                        <button class="button_design " onclick="bagr() ">Інформативніше</button>
+                        <div class="inst_member "><a href="https://www.instagram.com/ohcitdyvh/ ">instagram</a></div>
+                    </div>
+                </div>
+                <div class="member ">
+                    <img width="150px " height="150px " src="img/boyko1.jpg " alt=" ">
+                    <div class="text_member ">
+                        <h3>Бойко Вікторія</h3>
+                        <p>Гуцул</p>
+                        <button class="button_design " onclick="boiko() ">Інформативніше</button>
+                        <div class="inst_member "><a href="https://www.instagram.com/ohcitdyvh/ ">instagram</a></div>
+                    </div>
+                </div>
+                <div class="member ">
+                    <img width="150px " height="150px " src="img/grudzev1.jpg " alt=" ">
+                    <div class="text_member ">
+                        <h3>Грудзевич Вероніка</h3>
+                        <p>Боксерка</p>
+                        <button class="button_design " onclick="gruz() ">Інформативніше</button>
+                        <div class="inst_member "><a href="https://www.instagram.com/wwnnkyy/ ">instagram</a></div>
+                    </div>
+                </div>
+                <div class="member ">
+                    <img width="150px " height="150px " src="img/dazcishin4.jpg " alt=" ">
+                    <div class="text_member ">
+                        <h3>Дацишин Вероніка</h3>
+                        <p>Бувша староста</p>
+                        <button class="button_design " onclick="datsun() ">Інформативніше</button>
+                        <div class="inst_member "><a href="https://www.instagram.com/____.verona.____/ ">instagram</a></div>
+                    </div>
+                </div>
+                <div class="member ">
+                    <img width="150px " height="150px " src="img/dd1.jpg " alt=" ">
+                    <div class="text_member ">
+                        <h3>Добромільський Даніель</h3>
+                        <p>Співак</p>
+                        <button class="button_design " onclick="dobro() ">Інформативніше</button>
+                        <div class="inst_member "><a href="https://www.instagram.com/anieldobromilskii/ ">instagram</a></div>
+                    </div>
+                </div>
+                <div class="member ">
+                    <img width="150px " height="150px " src="img/drozd1.jpg " alt=" ">
+                    <div class="text_member ">
+                        <h3>Дроздович Вікторія</h3>
+                        <p>Анімешниця</p>
+                        <button class="button_design " onclick="drozd() ">Інформативніше</button>
+                        <div class="inst_member "><a href="https://www.instagram.com/ohcitdyvh/ ">instagram</a></div>
+                    </div>
+                </div>
+                <div class="member ">
+                    <img width="150px " height="150px " src="img/zher.jpg " alt=" ">
+                    <div class="text_member ">
+                        <h3>Жеребятьева Наталя</h3>
+                        <p>Я с данбаса</p>
+                        <button class="button_design " onclick="zherti() ">Інформативніше</button>
+                        <div class="inst_member "><a href="https://www.instagram.com/op_natali_op/ ">instagram</a></div>
+                    </div>
+                </div>
+                <div class="member ">
+                    <img width="150px " height="150px " src="img/alina.jpg " alt=" ">
+                    <div class="text_member ">
+                        <h3>Івасишин Аліна</h3>
+                        <p>Похожа на Каріну</p>
+                        <button class="button_design " onclick="ivasa() ">Інформативніше</button>
+                        <div class="inst_member "><a href="https://www.instagram.com/ ">instagram</a></div>
+                    </div>
+                </div>
+                <div class="member ">
+                    <img width="150px " height="150px " src="img/karina.jpg " alt=" ">
+                    <div class="text_member ">
+                        <h3>Івасишин Каріна</h3>
+                        <p>Похожа на Аліну</p>
+                        <button class="button_design " onclick="ivask() ">Інформативніше</button>
+                        <div class="inst_member "><a href="https://www.instagram.com/ ">instagram</a></div>
+                    </div>
+                </div>
+                <div class="member ">
+                    <img width="150px " height="150px " src="img/kazn1.jpg " alt=" ">
+                    <div class="text_member ">
+                        <h3>Казнох Софія</h3>
+                        <p>Не Казнох а Казнити</p>
+                        <button class="button_design " onclick="kazniti() ">Інформативніше</button>
+                        <div class="inst_member "><a href="https://www.instagram.com/rskssss/ ">instagram</a></div>
+                    </div>
+                </div>
+                <div class="member ">
+                    <img width="150px " height="150px " src="img/kit1.jpg " alt=" ">
+                    <div class="text_member ">
+                        <h3>Кіт Арсен</h3>
+                        <p>"Чистий листок "</p>
+                        <<button class="button_design " onclick="vkid() ">Інформативніше</button>
+                            <div class="inst_member "><a href="https://www.instagram.com/_._decline_._/ ">instagram</a></div>
+                    </div>
+                </div>
+                <div class="member ">
+                    <img width="150px " height="150px " src="img/kizhuk1.jpg " alt=" ">
+                    <div class="text_member ">
+                        <h3>Кіщук Анастасія</h3>
+                        <p>Любить босса цієї качалки</p>
+                        <button class="button_design " onclick="kichuk() ">Інформативніше</button>
+                        <div class="inst_member "><a href="https://www.instagram.com/knastasis/ ">instagram</a></div>
+                    </div>
+                </div>
+                <div class="member ">
+                    <img width="150px " height="150px " src="img/long1.jpg " alt=" ">
+                    <div class="text_member ">
+                        <h3>Лоншакова Вероніка</h3>
+                        <p>Не Лоншакова а (long)шакова</p>
+                        <button class="button_design " onclick="long() ">Інформативніше</button>
+                        <div class="inst_member "><a href="https://www.instagram.com/nikkkkaa__1.0__/ ">instagram</a></div>
+                    </div>
+                </div>
+                <div class="member ">
+                    <img width="150px " height="150px " src="img/yura1.jpg " alt=" ">
+                    <div class="text_member ">
+                        <h3>Мачкур Юрії</h3>
+                        <p>Факінг славес</p>
+                        <button class="button_design " onclick="machkur() ">Інформативніше</button>
+                        <div class="inst_member "><a href="# ">instagram</a></div>
+                    </div>
+                </div>
+                <div class="member ">
+                    <img width="150px " height="150px " src="img/panchuk.jpg " alt=" ">
+                    <div class="text_member ">
+                        <h3>Панчук Христина</h3>
+                        <p>ХЗ</p>
+                        <button class="button_design " onclick="panch() ">Інформативніше</button>
+                        <div class="inst_member "><a href="https://www.instagram.com/_kristi.panchuk_/ ">instagram</a></div>
+                    </div>
+                </div>
+                <div class="member ">
+                    <img width="150px " height="150px " src="img/pavluk1.jpg " alt=" ">
+                    <div class="text_member ">
+                        <h3>Павлюк Ірина</h3>
+                        <p>Павлик</p>
+                        <button class="button_design " onclick="pavlin() ">Інформативніше</button>
+                        <div class="inst_member "><a href="https://www.instagram.com/_iraa_pvl_/ ">instagram</a></div>
+                    </div>
+                </div>
+                <div class="member ">
+                    <img width="150px " height="150px " src="img/padko1.jpg " alt=" ">
+                    <div class="text_member ">
+                        <h3>Падко Христина</h3>
+                        <p>Патрік з пробитим носом</p>
+                        <button class="button_design " onclick="padlo() ">Інформативніше</button>
+                        <div class="inst_member "><a href="https://www.instagram.com/kristipass/ ">instagram</a></div>
+                    </div>
+                </div>
+                <div class="member ">
+                    <img width="150px " height="150px " src="img/puh3.jpg " alt=" ">
+                    <div class="text_member ">
+                        <h3>Пухта Станіслав</h3>
+                        <p>Псевдо відмінник</p>
+                        <button class="button_design " onclick="pux() ">Інформативніше</button>
+                        <div class="inst_member "><a href="https://www.instagram.com/stas03092008/ ">instagram</a></div>
+                    </div>
+                </div>
+                <div class="member ">
+                    <img width="150px " height="150px " src="img/ribak1.jpg " alt=" ">
+                    <div class="text_member ">
+                        <h3>Рибак Анастасія</h3>
+                        <p>Гадості курить</p>
+                        <button class="button_design " onclick="riba() ">Інформативніше</button>
+                        <div class="inst_member "><a href="https://www.instagram.com/rubylickka_/ ">instagram</a></div>
+                    </div>
+                </div>
+                <div class="member ">
+                    <img width="150px " height="150px " src="img/sverlo1.jpg " alt=" ">
+                    <div class="text_member ">
+                        <h3>Свирида Назар</h3>
+                        <p>Бабл Басер</p>
+                        <button class="button_design " onclick="sverlo() ">Інформативніше</button>
+                        <div class="inst_member "><a href="https://www.instagram.com/69ponyy/ ">instagram</a></div>
+                    </div>
+                </div>
+                <div class="member ">
+                    <img width="150px " height="150px " src="img/artem1.jpg " alt=" ">
+                    <div class="text_member ">
+                        <h3>Середюк Артем</h3>
+                        <p>Алтем</p>
+                        <button class="button_design " onclick="serditii() ">Інформативніше</button>
+                        <div class="inst_member "><a href="https://www.instagram.com/ohcitdyvh/ ">instagram</a></div>
+                    </div>
+                </div>
+                <div class="member ">
+                    <img width="150px " height="150px " src="img/dima1.jpg " alt=" ">
+                    <div class="text_member ">
+                        <h3>Скидан Дмитро</h3>
+                        <p>Дотер</p>
+                        <button class="button_design " onclick="skid() ">Інформативніше</button>
+                        <div class="inst_member "><a href="https://www.instagram.com/ohcitdyvh/ ">instagram</a></div>
+                    </div>
+                </div>
+                <div class="member ">
+                    <img width="150px " height="150px " src="img/skripnik1.jpg " alt=" ">
+                    <div class="text_member ">
+                        <h3>Cкрипник Анастасія</h3>
+                        <p>Оре з пальця</p>
+                        <button class="button_design " onclick="scripka() ">Інформативніше</button>
+                        <div class="inst_member "><a href="https://www.instagram.com/ohcitdyvh/ ">instagram</a></div>
+                    </div>
+                </div>
+                <div class="member ">
+                    <img width="150px " height="150px " src="img/stasiv1.jpg " alt=" ">
+                    <div class="text_member ">
+                        <h3>Стасів Наталя</h3>
+                        <p>"ТУПА ХІМІЧКА "</p>
+                        <button class="button_design " onclick="stas() ">Інформативніше</button>
+                        <div class="inst_member "><a href="https://www.instagram.com/_n.atk.a._/ ">instagram</a></div>
+                    </div>
+                </div>
+                <div class="member ">
+                    <img width="150px " height="150px " src="img/vlad1.jpg " alt=" ">
+                    <div class="text_member ">
+                        <h3>Урядка Влад</h3>
+                        <p>Урядований в ТрО</p>
+                        <button class="button_design " onclick="uriad() ">Інформативніше</button>
+                        <div class="inst_member "><a href="https://www.instagram.com/u_vladoss/ ">instagram</a></div>
+                    </div>
+                </div>
+                <div class="member ">
+                    <img width="150px " height="150px " src="img/yana2.jpg " alt=" ">
+                    <div class="text_member ">
+                        <h3>Хмельовська Яна(цист)</h3>
+                        <p>Хмелівська</p>
+                        <button class="button_design " onclick="hmel() ">Інформативніше</button>
+                        <div class="inst_member "><a href="https://www.instagram.com/yanotysuk/ ">instagram</a></div>
+                    </div>
+                </div>
+                <div class="member ">
+                    <img width="150px " height="150px " src="img/yuichimuk1.jpg " alt=" ">
+                    <div class="text_member ">
+                        <h3>Юхимук Вікторія</h3>
+                        <p>think about it хімія</p>
+                        <button class="button_design " onclick="youChimik() ">Інформативніше</button>
+                        <div class="inst_member "><a href="https://www.instagram.com/iukhimukviktoria/ ">instagram</a></div>
+                    </div>
+                </div>
+                <div class="member ">
+                    <img width="150px " height="150px " src="img/taras1.jpg " alt=" ">
+                    <div class="text_member ">
+                        <h3>Яцков Тарас</h3>
+                        <p>Творець цього сайту</p>
+                        <button class="button_design " onclick="moskal() ">Інформативніше</button>
+                        <div class="inst_member "><a href="https://www.instagram.com/taqpas/ ">instagram</a></div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <p>Присилайте свої поправки сюди: yackovschool@gmail.com</p>
+            <h3>9-Б</h3>
+            <div class="social ">
+                <a href="https://www.instagram.com/taqpas/ ">instagram</a>
+                <a href="info.html">information</a>
+            </div>
+        </footer>
+    </div>
+</body>
+<script src="java/main.js "></script>
+
+</html>
